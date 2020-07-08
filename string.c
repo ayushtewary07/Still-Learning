@@ -2,7 +2,7 @@
 
 size_t  my_strlen(char *s)
 {
-   char *p = s;
+   char const *p = s;
 
    while (*p)
       ++p;
